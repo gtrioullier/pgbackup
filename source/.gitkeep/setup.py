@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 with open ('README.md', 'r') as readme_file:
-    long_description = f.read()
+    long_description = readme_file.read()
 
 setup(
     name='pgbackup',
